@@ -1,0 +1,21 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/class/students
+
+{
+    "name": "Anbu",
+    "ID": 101,
+    "role": "hod"
+}
+
+###
+
+GET http://localhost:3000/class/102
+
+{
+    "name": "Anbu",
+    "ID": 101,
+    "role": "hod"
+}
